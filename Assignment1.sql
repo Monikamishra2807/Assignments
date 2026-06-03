@@ -111,7 +111,6 @@ insert into  Product
 values
 (1009,'Wireless Mouse','Accessories',1000,20,104);
 
-select * from Product
 delete from product where ProductId not in (select ProductId from OrderItem)
 select * from Customer
 select * from Seller
@@ -220,3 +219,58 @@ select * from Customer C right join Orders O on C.CustomerId = O.CustomerId
 select * from Customer C full outer join Orders O on C.CustomerId = O.CustomerId
 
 select C.CustomerName, P.ProductName from Customer C cross join Product P
+
+
+
+-- basic subquery
+select * from Product where Price > (select avg(price) from Product)
+select * from Product where StockQuantity < (select avg(StockQuantity) from Product)
+select * from Customer where CustomerId in (select CustomerId from Orders)
+select * from Customer where CustomerId not in (select CustomerId from Orders)
+select * from Product where ProductId in (select ProductId from OrderItem)
+select * from Product where ProductId not in (select ProductId from OrderItem)
+select * from Seller where sellerid in (select SellerId from Product)
+select * from Seller where sellerid not in (select SellerId from Product)
+select * from Orders where CustomerId in (select CustomerId from Customer where City ='Chennai')
+select * from Product where SellerId in (select SellerId from Seller where City ='Bangalore')
+
+--subquery using in and not in
+select * from Customer where CustomerId in (select CustomerId from Orders)
+select * from Customer where CustomerId not in (select CustomerId from Orders)
+select * from Product where ProductId in (select ProductId from OrderItem)
+select * from Product where ProductId not in (select ProductId from OrderItem)
+select * from Seller where SellerId in (select SellerId from Product)
+select * from Seller where SellerId not in (select SellerId from Product)
+select * from Orders where OrderId in (select OrderId from OrderItem where ProductId in (select ProductId from Product where Category ='Mobile'))
+select * from Orders where OrderId not in (select OrderId from OrderItem where ProductId in (select ProductId from Product where Category ='Laptop'))
+
+--subquery with aggregate function
+select * from Product where Price = (select max(Price) from Product)
+select * from Product where Price = (select min(Price) from Product)
+select * from Product where Price > (select avg(Price) from Product)
+select * from Product where Price < (select avg(Price) from Product)
+select * from Customer where CustomerId in (select CustomerId from Orders group by CustomerId having sum(OrderId) > (select avg(OrderId) from Orders))
+select * from Seller where SellerId in (select SellerId from Product where ProductId in (select ProductId from OrderItem group by ProductId having sum(Quantity * UnitPrice) > 50000))
+select * from Product where ProductId in (select ProductId from OrderItem group by ProductId having sum(Quantity) > (select avg(Quantity) from OrderItem))
+select * from Customer where CustomerId = (select top 1 O.CustomerId from Orders O join OrderItem OI on O.OrderId = OI.OrderId group by O.CustomerId order by sum(OI.Quantity * OI.UnitPrice) desc)
+select * from Product where ProductId = (select top 1 ProductId from OrderItem group by ProductId order by sum(Quantity * UnitPrice) desc)
+select * from Seller where SellerId = (select top 1 P.SellerId from Product P join OrderItem OI on P.ProductId = OI.ProductId group by P.SellerId order by sum(OI.Quantity * OI.UnitPrice) desc)
+
+--corelated subquery
+select * from Product P1 where Price > (select avg(Price) from Product P2 where P1.Category = P2.Category)
+select * from Product P1 where Price < (select avg(Price) from Product P2 where P1.Category = P2.Category)
+select * from Seller S where 2 < (select count(*) from Product P where S.SellerId = P.SellerId)
+select * from Customer C where 1 < (select count(*) from Orders O where C.CustomerId = O.CustomerId)
+select * from Orders O where (select sum(Quantity * UnitPrice) from OrderItem OI where O.OrderId = OI.OrderId) > (select avg(Quantity * UnitPrice) from OrderItem)
+select * from Product P1 where StockQuantity > (select avg(StockQuantity) from Product P2 where P1.Category = P2.Category)
+select * from Seller S where (select avg(Price) from Product P where S.SellerId = P.SellerId) > (select avg(Price) from Product)
+
+--exists and not exists subquery
+select * from Customer C where exists (select 1 from Orders O where C.CustomerId = O.CustomerId)
+select * from Customer C where not exists (select 1 from Orders O where C.CustomerId = O.CustomerId)
+select * from Product P where exists (select 1 from OrderItem OI where P.ProductId = OI.ProductId)
+select * from Product P where not exists (select 1 from OrderItem OI where P.ProductId = OI.ProductId)
+select * from Seller S where exists (select 1 from Product P where S.SellerId = P.SellerId)
+select * from Seller S where not exists (select 1 from Product P where S.SellerId = P.SellerId)
+select * from Customer C where exists (select 1 from Orders O join OrderItem OI on O.OrderId = OI.OrderId join Product P on OI.ProductId = P.ProductId where C.CustomerId = O.CustomerId and Category ='Mobile')
+select * from Customer C where not exists (select 1 from Orders O join OrderItem OI on O.OrderId = OI.OrderId join Product P on OI.ProductId = P.ProductId where C.CustomerId = O.CustomerId and Category ='Laptop')
