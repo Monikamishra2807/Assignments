@@ -1,0 +1,153 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\monik\\source\\repos\\SmartCourierManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3A6B2592-CD4C-536B-3806-70F9A3953C8E}|SmartCourierManagementSystem.csproj|c:\\users\\monik\\source\\repos\\smartcouriermanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A6B2592-CD4C-536B-3806-70F9A3953C8E}|SmartCourierManagementSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A6B2592-CD4C-536B-3806-70F9A3953C8E}|SmartCourierManagementSystem.csproj|c:\\users\\monik\\source\\repos\\smartcouriermanagementsystem\\invoices\\consoleinvoicegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A6B2592-CD4C-536B-3806-70F9A3953C8E}|SmartCourierManagementSystem.csproj|solutionrelative:invoices\\consoleinvoicegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A6B2592-CD4C-536B-3806-70F9A3953C8E}|SmartCourierManagementSystem.csproj|c:\\users\\monik\\source\\repos\\smartcouriermanagementsystem\\services\\courierbookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A6B2592-CD4C-536B-3806-70F9A3953C8E}|SmartCourierManagementSystem.csproj|solutionrelative:services\\courierbookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A6B2592-CD4C-536B-3806-70F9A3953C8E}|SmartCourierManagementSystem.csproj|c:\\users\\monik\\source\\repos\\smartcouriermanagementsystem\\invoices\\iinvoicegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A6B2592-CD4C-536B-3806-70F9A3953C8E}|SmartCourierManagementSystem.csproj|solutionrelative:invoices\\iinvoicegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A6B2592-CD4C-536B-3806-70F9A3953C8E}|SmartCourierManagementSystem.csproj|c:\\users\\monik\\source\\repos\\smartcouriermanagementsystem\\deliverycalculator\\internationaldeliverycalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A6B2592-CD4C-536B-3806-70F9A3953C8E}|SmartCourierManagementSystem.csproj|solutionrelative:deliverycalculator\\internationaldeliverycalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A6B2592-CD4C-536B-3806-70F9A3953C8E}|SmartCourierManagementSystem.csproj|c:\\users\\monik\\source\\repos\\smartcouriermanagementsystem\\notifications\\whatsappnotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A6B2592-CD4C-536B-3806-70F9A3953C8E}|SmartCourierManagementSystem.csproj|solutionrelative:notifications\\whatsappnotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A6B2592-CD4C-536B-3806-70F9A3953C8E}|SmartCourierManagementSystem.csproj|c:\\users\\monik\\source\\repos\\smartcouriermanagementsystem\\notifications\\smsnotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A6B2592-CD4C-536B-3806-70F9A3953C8E}|SmartCourierManagementSystem.csproj|solutionrelative:notifications\\smsnotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A6B2592-CD4C-536B-3806-70F9A3953C8E}|SmartCourierManagementSystem.csproj|c:\\users\\monik\\source\\repos\\smartcouriermanagementsystem\\notifications\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A6B2592-CD4C-536B-3806-70F9A3953C8E}|SmartCourierManagementSystem.csproj|solutionrelative:notifications\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CourierBookingService.cs",
+              "DocumentMoniker": "C:\\Users\\monik\\source\\repos\\SmartCourierManagementSystem\\Services\\CourierBookingService.cs",
+              "RelativeDocumentMoniker": "Services\\CourierBookingService.cs",
+              "ToolTip": "C:\\Users\\monik\\source\\repos\\SmartCourierManagementSystem\\Services\\CourierBookingService.cs",
+              "RelativeToolTip": "Services\\CourierBookingService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwBoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T14:51:08.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConsoleInvoiceGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\monik\\source\\repos\\SmartCourierManagementSystem\\Invoices\\ConsoleInvoiceGenerator.cs",
+              "RelativeDocumentMoniker": "Invoices\\ConsoleInvoiceGenerator.cs",
+              "ToolTip": "C:\\Users\\monik\\source\\repos\\SmartCourierManagementSystem\\Invoices\\ConsoleInvoiceGenerator.cs",
+              "RelativeToolTip": "Invoices\\ConsoleInvoiceGenerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T14:41:08.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InternationalDeliveryCalculator.cs",
+              "DocumentMoniker": "C:\\Users\\monik\\source\\repos\\SmartCourierManagementSystem\\DeliveryCalculator\\InternationalDeliveryCalculator.cs",
+              "RelativeDocumentMoniker": "DeliveryCalculator\\InternationalDeliveryCalculator.cs",
+              "ToolTip": "C:\\Users\\monik\\source\\repos\\SmartCourierManagementSystem\\DeliveryCalculator\\InternationalDeliveryCalculator.cs",
+              "RelativeToolTip": "DeliveryCalculator\\InternationalDeliveryCalculator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T10:09:05.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SmsNotificationService.cs",
+              "DocumentMoniker": "C:\\Users\\monik\\source\\repos\\SmartCourierManagementSystem\\Notifications\\SmsNotificationService.cs",
+              "RelativeDocumentMoniker": "Notifications\\SmsNotificationService.cs",
+              "ToolTip": "C:\\Users\\monik\\source\\repos\\SmartCourierManagementSystem\\Notifications\\SmsNotificationService.cs",
+              "RelativeToolTip": "Notifications\\SmsNotificationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T05:55:10.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\monik\\source\\repos\\SmartCourierManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\monik\\source\\repos\\SmartCourierManagementSystem\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAawD4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T14:34:02.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WhatsAppNotificationService.cs",
+              "DocumentMoniker": "C:\\Users\\monik\\source\\repos\\SmartCourierManagementSystem\\Notifications\\WhatsAppNotificationService.cs",
+              "RelativeDocumentMoniker": "Notifications\\WhatsAppNotificationService.cs",
+              "ToolTip": "C:\\Users\\monik\\source\\repos\\SmartCourierManagementSystem\\Notifications\\WhatsAppNotificationService.cs",
+              "RelativeToolTip": "Notifications\\WhatsAppNotificationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T06:02:13.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "INotificationService.cs",
+              "DocumentMoniker": "C:\\Users\\monik\\source\\repos\\SmartCourierManagementSystem\\Notifications\\INotificationService.cs",
+              "RelativeDocumentMoniker": "Notifications\\INotificationService.cs",
+              "ToolTip": "C:\\Users\\monik\\source\\repos\\SmartCourierManagementSystem\\Notifications\\INotificationService.cs",
+              "RelativeToolTip": "Notifications\\INotificationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T15:16:28.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IInvoiceGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\monik\\source\\repos\\SmartCourierManagementSystem\\Invoices\\IInvoiceGenerator.cs",
+              "RelativeDocumentMoniker": "Invoices\\IInvoiceGenerator.cs",
+              "ToolTip": "C:\\Users\\monik\\source\\repos\\SmartCourierManagementSystem\\Invoices\\IInvoiceGenerator.cs",
+              "RelativeToolTip": "Invoices\\IInvoiceGenerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T15:11:30.037Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+C:\Users\monik\source\repos\SmartCourierManagementSystem\obj\Debug\net10.0\SmartCourierManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\monik\source\repos\SmartCourierManagementSystem\obj\Debug\net10.0\SmartCourierManagementSystem.AssemblyInfoInputs.cache
+C:\Users\monik\source\repos\SmartCourierManagementSystem\obj\Debug\net10.0\SmartCourierManagementSystem.AssemblyInfo.cs
+C:\Users\monik\source\repos\SmartCourierManagementSystem\obj\Debug\net10.0\SmartCourierManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\monik\source\repos\SmartCourierManagementSystem\obj\Debug\net10.0\SmartCourierManagementSystem.sourcelink.json
+C:\Users\monik\source\repos\SmartCourierManagementSystem\bin\Debug\net10.0\SmartCourierManagementSystem.exe
+C:\Users\monik\source\repos\SmartCourierManagementSystem\bin\Debug\net10.0\SmartCourierManagementSystem.deps.json
+C:\Users\monik\source\repos\SmartCourierManagementSystem\bin\Debug\net10.0\SmartCourierManagementSystem.runtimeconfig.json
+C:\Users\monik\source\repos\SmartCourierManagementSystem\bin\Debug\net10.0\SmartCourierManagementSystem.dll
+C:\Users\monik\source\repos\SmartCourierManagementSystem\bin\Debug\net10.0\SmartCourierManagementSystem.pdb
+C:\Users\monik\source\repos\SmartCourierManagementSystem\obj\Debug\net10.0\SmartCourierManagementSystem.dll
+C:\Users\monik\source\repos\SmartCourierManagementSystem\obj\Debug\net10.0\refint\SmartCourierManagementSystem.dll
+C:\Users\monik\source\repos\SmartCourierManagementSystem\obj\Debug\net10.0\SmartCourierManagementSystem.pdb
+C:\Users\monik\source\repos\SmartCourierManagementSystem\obj\Debug\net10.0\SmartCourierManagementSystem.genruntimeconfig.cache
+C:\Users\monik\source\repos\SmartCourierManagementSystem\obj\Debug\net10.0\ref\SmartCourierManagementSystem.dll
