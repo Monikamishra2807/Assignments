@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\monik\\source\\repos\\ConsoleAppplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5378C861-7269-D5AB-D1FA-3BFE4A5AFE12}|ConsoleAppplication.csproj|c:\\users\\monik\\source\\repos\\consoleappplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5378C861-7269-D5AB-D1FA-3BFE4A5AFE12}|ConsoleAppplication.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F8CEEE8-596D-4D3E-8386-526C3F9A6D7D}|..\\ConsoleApplication.test\\ConsoleApplication.test.csproj|c:\\users\\monik\\source\\repos\\consoleapplication.test\\consoleapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5378C861-7269-D5AB-D1FA-3BFE4A5AFE12}|ConsoleAppplication.csproj|c:\\users\\monik\\source\\repos\\consoleappplication\\service\\orderbillingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5378C861-7269-D5AB-D1FA-3BFE4A5AFE12}|ConsoleAppplication.csproj|solutionrelative:service\\orderbillingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5378C861-7269-D5AB-D1FA-3BFE4A5AFE12}|ConsoleAppplication.csproj|c:\\users\\monik\\source\\repos\\consoleappplication\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5378C861-7269-D5AB-D1FA-3BFE4A5AFE12}|ConsoleAppplication.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderBillingService.cs",
+              "DocumentMoniker": "C:\\Users\\monik\\source\\repos\\ConsoleAppplication\\Service\\OrderBillingService.cs",
+              "RelativeDocumentMoniker": "Service\\OrderBillingService.cs",
+              "ToolTip": "C:\\Users\\monik\\source\\repos\\ConsoleAppplication\\Service\\OrderBillingService.cs",
+              "RelativeToolTip": "Service\\OrderBillingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T14:57:22.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\monik\\source\\repos\\ConsoleAppplication\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs",
+              "ToolTip": "C:\\Users\\monik\\source\\repos\\ConsoleAppplication\\Models\\Order.cs",
+              "RelativeToolTip": "Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T14:57:01.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConsoleApp.cs",
+              "DocumentMoniker": "C:\\Users\\monik\\source\\repos\\ConsoleApplication.test\\ConsoleApp.cs",
+              "RelativeDocumentMoniker": "..\\ConsoleApplication.test\\ConsoleApp.cs",
+              "ToolTip": "C:\\Users\\monik\\source\\repos\\ConsoleApplication.test\\ConsoleApp.cs",
+              "RelativeToolTip": "..\\ConsoleApplication.test\\ConsoleApp.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T14:45:37.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\monik\\source\\repos\\ConsoleAppplication\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\monik\\source\\repos\\ConsoleAppplication\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T05:01:25.15Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

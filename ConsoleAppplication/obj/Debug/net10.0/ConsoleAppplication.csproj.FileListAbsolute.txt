@@ -1,0 +1,15 @@
+C:\Users\monik\source\repos\ConsoleAppplication\obj\Debug\net10.0\ConsoleAppplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\monik\source\repos\ConsoleAppplication\obj\Debug\net10.0\ConsoleAppplication.AssemblyInfoInputs.cache
+C:\Users\monik\source\repos\ConsoleAppplication\obj\Debug\net10.0\ConsoleAppplication.AssemblyInfo.cs
+C:\Users\monik\source\repos\ConsoleAppplication\obj\Debug\net10.0\ConsoleAppplication.csproj.CoreCompileInputs.cache
+C:\Users\monik\source\repos\ConsoleAppplication\obj\Debug\net10.0\ConsoleAppplication.sourcelink.json
+C:\Users\monik\source\repos\ConsoleAppplication\bin\Debug\net10.0\ConsoleAppplication.exe
+C:\Users\monik\source\repos\ConsoleAppplication\bin\Debug\net10.0\ConsoleAppplication.deps.json
+C:\Users\monik\source\repos\ConsoleAppplication\bin\Debug\net10.0\ConsoleAppplication.runtimeconfig.json
+C:\Users\monik\source\repos\ConsoleAppplication\bin\Debug\net10.0\ConsoleAppplication.dll
+C:\Users\monik\source\repos\ConsoleAppplication\bin\Debug\net10.0\ConsoleAppplication.pdb
+C:\Users\monik\source\repos\ConsoleAppplication\obj\Debug\net10.0\ConsoleAppplication.dll
+C:\Users\monik\source\repos\ConsoleAppplication\obj\Debug\net10.0\refint\ConsoleAppplication.dll
+C:\Users\monik\source\repos\ConsoleAppplication\obj\Debug\net10.0\ConsoleAppplication.pdb
+C:\Users\monik\source\repos\ConsoleAppplication\obj\Debug\net10.0\ConsoleAppplication.genruntimeconfig.cache
+C:\Users\monik\source\repos\ConsoleAppplication\obj\Debug\net10.0\ref\ConsoleAppplication.dll
