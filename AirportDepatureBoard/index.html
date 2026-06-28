@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airport Departures Board</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header class="header">
+
+            <div class="header-left">
+                <p class="live">
+                    <span class="dot"></span>
+                    LIVE · SKY HARBOR INTL. TERMINAL 4
+                </p>
+
+                <h1>DEPARTURES</h1>
+            </div>
+
+            <div class="header-right">
+                <h2 id="clock">00:00:00</h2>
+                <p>LOCAL TIME · GMT +5:30</p>
+            </div>
+
+        </header>
+
+       
+        <div class="table">
+
+            
+            <div class="table-header">
+                <div>TIME</div>
+                <div>FLIGHT</div>
+                <div>DESTINATION</div>
+                <div>GATE</div>
+                <div>STATUS</div>
+            </div>
+
+           
+            <div id="board" class="board"></div>
+
+        </div>
+
+  
+        <div class="controls">
+
+            <button id="addBtn">
+                + Add Departure
+            </button>
+
+            <button id="resetBtn">
+                Reset Board
+            </button>
+
+            <div id="summary" class="summary">
+                0 departures · 0 boarding · 0 delayed
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
